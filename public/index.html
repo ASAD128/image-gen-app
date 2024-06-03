@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Meta Generator</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<nav>
+    <img src="/sparkles.svg" alt="Gen AI Logo">
+    <h3>Products Data Generator</h3>
+</nav>
+
+<div class="container">
+
+    <form class="meta-form">
+        <h5>Generate Products Meta Data</h5>
+        <label for="title">
+            <span>Product Title</span>
+            <input type="text" name="title">
+            <button>Generate Description and Tags</button>
+        </label>
+    </form>
+
+    <div class="description">
+        <p>Your Product Description...</p>
+    </div>
+    <div class="tags">
+        <p>Your Product Tags...</p>
+    </div>
+
+    <form class="image-form">
+        <h2>Generate Product Image</h2>
+        <label for="image">
+            <span>Describe the image</span>
+            <input type="text" name="prompt">
+            <button>Generate Image</button>
+        </label>
+    </form>
+
+    <div class="thumbnail">
+        <img src="https://place-hold.it/1024x1024" alt="thumbnail">
+    </div>
+
+</div><!-- end container -->
+
+<script src="/index.js"></script>
+</body>
+</html>
